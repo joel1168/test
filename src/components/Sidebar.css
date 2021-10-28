@@ -1,0 +1,34 @@
+.sidebar{
+    flex: 1;
+    height:calc(100vh - 50px);
+    background-color:rgba(7, 18, 42, 1);
+    position: sticky;
+    top: 50px;
+}
+
+.sidebarWrapper{
+    padding: 20px;
+    color: white;
+}
+
+.sidemenuTitle{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+    border-radius: 5px;
+}
+
+.sidemenuTitle.active, .sidemenuTitle:hover {
+ background-color: rgba(19,30,52,255);
+}
+
+.sidebarList {
+    list-style: none;
+    cursor: pointer;
+}
+
+.sidemenuIcon {
+    margin-right: 20px;
+}
+
